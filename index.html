@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/media.css" />
+    <link rel="stylesheet" href="./css/pop-up.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
@@ -13,7 +14,7 @@
     <title>Document</title>
   </head>
   <body>
-    <header>
+    <header id="top">
       <div class="content">
         <h1>Лазерный проектор для лазерной рекламы</h1>
         <h2>
@@ -52,7 +53,7 @@
             <div class="price-item">1500 RGB</div>
           </div>
           <h4>Лазер можно поставить на улице</h4>
-          <div class="order_button">
+          <div class="order_button popup-trigger">
             <p>Оставить заявку</p>
             <img src="./img/icons8-chevron-left-50.png" alt="" />
           </div>
@@ -181,7 +182,7 @@
           Вы сможете создавать рисунки, надписи, логотипы по вашим эскизам или
           пожеланиям.
         </h1>
-        <div style="max-width: 365px" class="question-btn">
+        <div style="max-width: 365px" class="question-btn popup-trigger">
           <img src="./img/question.png" alt="" />
           <p>Заказать проектор для лазерной рекламы</p>
         </div>
@@ -210,7 +211,7 @@
         <h1>
           Вы сможете реализовать - логотипы, рисунки, бегущие строки, анимацию!
         </h1>
-        <div class="question-btn">
+        <div class="question-btn popup-trigger">
           <img src="./img/question.png" alt="" />
           <p>Заказать лазер + программму для анимации</p>
         </div>
@@ -233,7 +234,7 @@
             оборудования!)
           </span>
         </h2>
-        <div class="question-btn">
+        <div class="question-btn popup-trigger">
           <img src="./img/question.png" alt="" />
           <p>Заказать лазер + программму для анимации</p>
         </div>
@@ -257,9 +258,9 @@
           работы.<br />
           Доставим - в любой город России.
         </p>
-        <div class="question-btn">
+        <div class="question-btn popup-trigger">
           <img src="./img/question.png" alt="" />
-          <p>Заказать лазер с доставкойц</p>
+          <p>Заказать лазер с доставкой</p>
         </div>
       </div>
     </section>
@@ -301,10 +302,41 @@
         </h1>
       </div>
     </footer>
-    <div class="question-btn help-button">
+    <div class="popup">
+      <div class="popup__content">
+        <div class="popup__body">
+          <div class="popup__close" type="button"></div>
+          <div class="popup_info">
+            <div class="pop-up__top">
+              <h1>Быстрый заказ</h1>
+            </div>
+            <form action="">
+              <p>
+                После отправления заявки Вам перезвонит менеджер, проведет
+                консультацию и ответит на Ваши вопросы
+              </p>
+              <h2>Ваше имя</h2>
+              <input type="text" placeholder="Ваше имя" />
+              <h2>Телефон для связи</h2>
+              <input type="text" placeholder="Телефон для связи" />
+              <h2>Адрес отправки</h2>
+              <input type="text" placeholder="Адрес отправки" />
+            </form>
+            <div class="pop-up__bottom">
+              <button>Оставить заявку</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="question-btn help-button popup-trigger">
       <img src="./img/question.png" alt="" />
       <p>Помощь</p>
     </div>
+    <a href="#top" class="black-arrow">
+      <img src="./img/arrow-style3-yellow-black.png" alt="" />
+    </a>
     <script src="./js/image-selector.js"></script>
+    <script src="./js/pop-up.js"></script>
   </body>
 </html>
