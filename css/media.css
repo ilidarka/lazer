@@ -1,0 +1,29 @@
+@media screen and (max-width: 1000px) {
+  .content {
+    max-width: none;
+    margin: 0 15px;
+  }
+  .order-content {
+    justify-content: center;
+    gap: 20px;
+  }
+  .image-container img {
+    width: 100%;
+  }
+  .info-content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .characteristics-container {
+    flex-direction: column;
+    justify-content: center;
+    border: 1px dashed #525252;
+  }
+  .footer-container {
+    flex-direction: column;
+  }
+  .right-item {
+    text-align: left;
+  }
+}/*# sourceMappingURL=media.css.map */
