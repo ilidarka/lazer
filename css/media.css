@@ -26,4 +26,8 @@
   .right-item {
     text-align: left;
   }
+  .img-wrapper {
+    align-items: center;
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=media.css.map */
