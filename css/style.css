@@ -94,6 +94,7 @@ body {
 .content {
   max-width: 960px;
   margin: 0 auto;
+  overflow-x: hidden;
 }
 
 header {
@@ -230,7 +231,7 @@ header h2 {
 
 .info {
   width: 100%;
-  background-image: url(/img/fond_border_laser.png);
+  background-image: url(../img/fond_border_laser.png);
   background-repeat: repeat-x;
   border-bottom: 5px solid rgb(176, 175, 175);
 }
@@ -474,7 +475,7 @@ header h2 {
 .footer-container p {
   margin-bottom: 10px;
   font-size: 12px;
-  line-height: 11px;
+  line-height: 15px;
 }
 
 .card-container {
@@ -526,4 +527,21 @@ header h2 {
   position: fixed;
   right: 20px;
   bottom: 30px;
+}
+
+.black-arrow {
+  position: fixed;
+  left: 20px;
+  bottom: 30px;
+  opacity: 0.2;
+  cursor: pointer;
+}
+.black-arrow img {
+  max-width: 40px;
+  max-height: 40px;
+}
+
+.black-arrow:hover {
+  opacity: 1;
+  transition: 0.3s;
 }/*# sourceMappingURL=style.css.map */
