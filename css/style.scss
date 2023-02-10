@@ -173,6 +173,8 @@ header {
   margin-top: 10px;
   display: flex;
   gap: 5px;
+  flex: 1 1 auto;
+  flex-shrink: 1;
   img {
     max-width: 110px;
     max-height: 91px;

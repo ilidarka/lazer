@@ -176,6 +176,8 @@ header h2 {
   margin-top: 10px;
   display: flex;
   gap: 5px;
+  flex: 1 1 auto;
+  flex-shrink: 1;
 }
 .img-bottom-container img {
   max-width: 110px;

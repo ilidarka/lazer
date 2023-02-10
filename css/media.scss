@@ -28,4 +28,14 @@
   .right-item {
     text-align: left;
   }
+  .img-wrapper {
+    align-items: center;
+    flex-direction: column;
+  }
+  .img-bottom-container {
+    img {
+      max-width: 70px;
+      max-height: 60px;
+    }
+  }
 }

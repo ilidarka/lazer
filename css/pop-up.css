@@ -135,7 +135,7 @@
 .popup.show .popup__body {
   transform: scale(1);
   transition: all 0.3s ease 0.2s;
-} /*# sourceMappingURL=popup.css.map */
+} 
 .pop-up__top {
   background: linear-gradient(#ff8000 0%, #ffa000 100%);
   font-size: 13px;
