@@ -28,7 +28,6 @@
   }
   .img-wrapper {
     align-items: center;
-    flex-direction: column;
   }
   .img-bottom-container img {
     max-width: 70px;
